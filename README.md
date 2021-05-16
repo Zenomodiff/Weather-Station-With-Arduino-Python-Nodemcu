@@ -1,21 +1,16 @@
 # Weather-Station-With-Arduino-Nodemcu-
 This Weather Station Uses Arduino And Nodemcu , Since Nodemcu Have Only One A0 Pin & We Need Values From Different Analog Sensors Like :--
 
-MQ2 --> Smoke 
+Sensor         | Data
+----           | ------
+MQ2            | SMOKE 
+MQ4            | CNG 
+MQ5            | LPG
+LDR            | LIGHT INTENSITY
+RAIN SENSOR    | RAIN INTENSITY
+DHT22          | TEMPERATURE & HUMIDITY  
+BMP280         | PRESSURE & ALTITUDE 
 
-MQ4 --> Cng
-
-MQ5 --> Lpg
-
-MQ135 --> Air Quality
-
-LDR --> Light Intensity
-
-Rain Sensor --> Rain Value
-
-DHT 22  --> Temperature & Humidity
-
-BMP280  --> Pressure & Altitude
 
 So We Use ArduinoJson Library To Sent Values Collected From Sensors Via Arduino As "DOC" & Print It In Serial Monitor Of Nodemcu , Thats One-Way To Show Multiple Analog Readings In Nodemcu Board .
 
