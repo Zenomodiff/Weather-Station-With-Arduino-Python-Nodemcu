@@ -6,6 +6,7 @@ Sensor         | Data
 MQ2            | SMOKE 
 MQ4            | CNG 
 MQ5            | LPG
+MQ135          | AIR QUALITY
 LDR            | LIGHT INTENSITY
 RAIN SENSOR    | RAIN INTENSITY
 DHT22          | TEMPERATURE & HUMIDITY  
