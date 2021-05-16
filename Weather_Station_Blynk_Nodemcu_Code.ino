@@ -13,9 +13,9 @@
 
 SoftwareSerial s_serial_to_nano(2,0); 
 
-char auth[] = "gtujd_756789398ll44vfghjfkds";
-const char *ssid =  "Zeno Modiff";     
-const char *pass =  "zenomodiff@123";
+char auth[] = "PASTE THE AUTH CODE SENT BY BLYNK APP";
+const char *ssid =  "PUT THE SSID";     
+const char *pass =  "PUT THE PASSWORD";
 
 WiFiClient client;
 
