@@ -19,6 +19,15 @@ BMP280  --> Pressure & Altitude
 
 We Use Json Library To Sent Values From Sensor's As "DOC" & Print It In Serial Monitor Of Nodemcu ,So The Job Is Easy 
 
+DEVICE VIEW
+
+![IMG_20210508_001355](https://user-images.githubusercontent.com/25906435/118393866-ec259880-b65e-11eb-849f-6b332e847f9f.jpg)
+
+SOLDERING JOB 
+
+![IMG_20210508_021712](https://user-images.githubusercontent.com/25906435/118393871-f8a9f100-b65e-11eb-8395-6a28c39265ce.jpg)
+
+
 DATA SENT BY ARDUINO AS JSON "DOC"
 
 ![Screenshot (235)](https://user-images.githubusercontent.com/25906435/118393371-71f41480-b65c-11eb-94cd-511564734ba4.png)
