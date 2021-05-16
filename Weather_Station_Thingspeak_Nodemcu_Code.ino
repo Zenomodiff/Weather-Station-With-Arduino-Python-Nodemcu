@@ -11,7 +11,7 @@
 
 SoftwareSerial s_serial_to_nano(2,0); 
 
-String apiKey = "PASTE THE THINGIVERSE LINK";     
+String apiKey = "PASTE THE THINGSPEAK API KEY";     
  const char *ssid =  "TYPE THE SSID"; 
 const char *pass =  "TYPE THE PASSWORD";
 const char* server = "api.thingspeak.com";
