@@ -27,7 +27,9 @@ DATA RECIEVED BY NODEMCU IN SERIAL MONITOR
 
 ![Screenshot (238)](https://user-images.githubusercontent.com/25906435/118393393-86381180-b65c-11eb-9b50-215d0a341aa8.png)
 
-DATA RECIEVED BY BLYNK APP (in the blynk app i have only shown 6 diff values beacuse the blynk energy was not enough to place new fields for thers )
+DATA RECIEVED BY BLYNK APP
+
+(in the BLYNK app i have only shown 6 DIFF values beacuse the BLYNK ENERGY was not ENOUGH to place new GUAGE FIELDS for thers )
 
 ![Screenshot_2021-05-09-02-48-05-557_cc blynk](https://user-images.githubusercontent.com/25906435/118393486-12e2cf80-b65d-11eb-97fb-504bba5522a6.jpg)
 
