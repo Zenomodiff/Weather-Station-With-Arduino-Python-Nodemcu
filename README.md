@@ -18,3 +18,16 @@ DHT 22  --> Temperature & Humidity
 BMP280  --> Pressure & Altitude
 
 We Use Json Library To Sent Values From Sensor's As "DOC" & Print It In Serial Monitor Of Nodemcu ,So The Job Is Easy 
+
+DATA SENT BY ARDUINO AS JSON "DOC"
+
+![Screenshot (235)](https://user-images.githubusercontent.com/25906435/118393371-71f41480-b65c-11eb-94cd-511564734ba4.png)
+
+DATA RECIEVED BY NODEMCU IN SERIAL MONITOR
+
+![Screenshot (238)](https://user-images.githubusercontent.com/25906435/118393393-86381180-b65c-11eb-9b50-215d0a341aa8.png)
+
+DATA RECIEVED BY BLYNK APP
+
+![Screenshot_2021-05-09-02-48-05-557_cc blynk](https://user-images.githubusercontent.com/25906435/118393486-12e2cf80-b65d-11eb-97fb-504bba5522a6.jpg)
+
