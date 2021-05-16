@@ -17,7 +17,7 @@ DHT 22  --> Temperature & Humidity
 
 BMP280  --> Pressure & Altitude
 
-We Use Json Library To Sent Values Collected From Sensors Via Arduino As "DOC" & Print It In Serial Monitor Of Nodemcu , Thats One-Way To Show Multiple Analog Readings In Nodemcu Board .
+So We Use Json Library To Sent Values Collected From Sensors Via Arduino As "DOC" & Print It In Serial Monitor Of Nodemcu , Thats One-Way To Show Multiple Analog Readings In Nodemcu Board .
 
 DEVICE VIEW
 
