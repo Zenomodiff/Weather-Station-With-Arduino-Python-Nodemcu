@@ -38,3 +38,8 @@ DATA RECIEVED BY BLYNK APP
 
 ![Screenshot_2021-05-09-02-48-05-557_cc blynk](https://user-images.githubusercontent.com/25906435/118393486-12e2cf80-b65d-11eb-97fb-504bba5522a6.jpg)
 
+DATA RECIEVED BY THINGSPEAK WEBSITE
+
+![Screenshot_2021-05-16-20-10-31-062_com android chrome](https://user-images.githubusercontent.com/25906435/118401476-85ff3c80-b683-11eb-8f7d-4bb1ef685694.jpg)
+
+
