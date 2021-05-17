@@ -13,9 +13,11 @@ DHT22          | TEMPERATURE & HUMIDITY
 BMP280         | PRESSURE & ALTITUDE 
 
 
-So We Use ArduinoJson Library To Sent Values Collected From Sensors Via Arduino As "DOC" & Print It In Serial Monitor Of Nodemcu , Thats One-Way To Show Multiple Analog Readings In Nodemcu Board .
+So I Use ArduinoJson Library To Sent Values Collected From Sensors Via Arduino As "DOC" & Print It In Nodemcu Serial Monitor , Thats One-Way To Show Multiple Analog Readings In Nodemcu Board .
 
-Use This [Arduinojson](https://downloads.arduino.cc/libraries/github.com/bblanchon/ArduinoJson-6.13.0.zip) Library Others Have Certain Compactability ISSUES
+I Use This [Arduinojson 6.13.0](https://downloads.arduino.cc/libraries/github.com/bblanchon/ArduinoJson-6.13.0.zip) Library For SERIAL MONITOR DATA, [BLYNK](https://blynk.io/) , [THINGSPEAK](https://thingspeak.com/) 
+
+Then I Use This [Arduinojson 5.13.1](https://downloads.arduino.cc/libraries/github.com/bblanchon/ArduinoJson-5.13.1.zip) Library For Firebase Realtime Data Streaming , Other Arduinojson Library Does Not Work Beacuse I Use DynamicJsonDocument doc(1024); For Converting Data From Arduino To Nodemcu It Is A [Arduinojson 6.13.0](https://downloads.arduino.cc/libraries/github.com/bblanchon/ArduinoJson-6.13.0.zip) Variant & Not Yet Compactable With FirebaseArduino.h Library So I Have Downgraded To This [Arduinojson 5.13.1](https://downloads.arduino.cc/libraries/github.com/bblanchon/ArduinoJson-5.13.1.zip) Library .I Do Need To Do Some Tweeks In The Code To Make It Work & All The Arduino Files Have Been Updated .
 
 List Of Other Arduinojson [Libraries](https://www.arduinolibraries.info/libraries/arduino-json)
 
