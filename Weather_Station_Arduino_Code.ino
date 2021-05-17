@@ -110,7 +110,7 @@ void loop() {
   delay(3000);
 }
 
-double analogToPPM(int aValue) {
+  double analogToPPM(int aValue) {
   float sensor_volt;  
   float RS_gas;   
   float ratio; 
