@@ -1,5 +1,6 @@
 # Weather-Station-With-Arduino-Nodemcu-
-This Weather Station Uses Arduino And Nodemcu , Since Nodemcu Have Only One A0 Pin & We Need Values From Different Analog Sensors Like :--
+This Weather Station Uses Arduino , Nodemcu Along With Different Analog  Value Sensor & Digital Value Sensors. 
+Since Nodemcu Have Only One A0 Pin & We Need Values From Different Analog Sensors Like :--
 
 Sensor         | Data
 ----           | ------
@@ -17,7 +18,7 @@ So I Use ArduinoJson Library To Sent Values Collected From Sensors Via Arduino A
 
 I Use This [Arduinojson 6.13.0](https://downloads.arduino.cc/libraries/github.com/bblanchon/ArduinoJson-6.13.0.zip) Library For SERIAL MONITOR DATA, [BLYNK](https://blynk.io/) , [THINGSPEAK](https://thingspeak.com/) 
 
-Then I Use This [Arduinojson 5.13.1](https://downloads.arduino.cc/libraries/github.com/bblanchon/ArduinoJson-5.13.1.zip) Library For Firebase Realtime Data Streaming , Other Arduinojson Library Does Not Work Beacuse I Use DynamicJsonDocument doc(1024); For Converting Data From Arduino To Nodemcu It Is A [Arduinojson 6.13.0](https://downloads.arduino.cc/libraries/github.com/bblanchon/ArduinoJson-6.13.0.zip) Variant & Not Yet Compactable With FirebaseArduino.h Library So I Have Downgraded To This [Arduinojson 5.13.1](https://downloads.arduino.cc/libraries/github.com/bblanchon/ArduinoJson-5.13.1.zip) Library .I Do Need To Do Some Tweeks In The Code To Make It Work & All The Arduino Files Have Been Updated .
+Then I Use This [Arduinojson 5.13.1](https://downloads.arduino.cc/libraries/github.com/bblanchon/ArduinoJson-5.13.1.zip) Library For Firebase Realtime Data Streaming , Other Arduinojson Library Does Not Work Beacuse I Use DynamicJsonDocument doc(1024); For Converting Data From Arduino To Nodemcu It Is A [Arduinojson 6.13.0](https://downloads.arduino.cc/libraries/github.com/bblanchon/ArduinoJson-6.13.0.zip) Variant & Not Yet Compactable With FirebaseArduino.h Library So I Have Downgraded To This [Arduinojson 5.13.1](https://downloads.arduino.cc/libraries/github.com/bblanchon/ArduinoJson-5.13.1.zip) Library . I Do Need To Do Some Tweeks In The Code To Make It All Work & All The Arduino Files Have Been Updated In The Repository
 
 List Of Other Arduinojson [Libraries](https://www.arduinolibraries.info/libraries/arduino-json)
 
