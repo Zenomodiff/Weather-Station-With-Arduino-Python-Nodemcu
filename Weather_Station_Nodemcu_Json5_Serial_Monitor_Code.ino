@@ -1,11 +1,18 @@
+/*feel free to contact
+ * sreeramaj53@gmail.com
+ * www.youtube.com/ZenoModiff
+ * last updated - time 01:41 AM - date 18 may 2021
+ * Github Link :-- https://github.com/Zenomodiff/Weather-Station-With-Arduino-Nodemcu
+ */
+
 #include <ESP8266WiFi.h>
 #include "ArduinoJson.h"
 #include <SoftwareSerial.h> 
 
 SoftwareSerial s_serial_to_nano(2,0); 
 
-const char *ssid =  "Zeno";     
-const char *pass =  "9061116368";
+const char *ssid =  "PASTE THE SSID ";     
+const char *pass =  "PASTE THE PASSWORD";
 
 WiFiClient client;
 
