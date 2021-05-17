@@ -15,6 +15,9 @@ BMP280         | PRESSURE & ALTITUDE
 
 So We Use ArduinoJson Library To Sent Values Collected From Sensors Via Arduino As "DOC" & Print It In Serial Monitor Of Nodemcu , Thats One-Way To Show Multiple Analog Readings In Nodemcu Board .
 
+Use This [Arduinojson](https://downloads.arduino.cc/libraries/github.com/bblanchon/ArduinoJson-6.13.0.zip) Library Others Have Certain Compactability ISSUES
+
+
 DEVICE VIEW
 
 ![IMG_20210508_001355](https://user-images.githubusercontent.com/25906435/118393866-ec259880-b65e-11eb-849f-6b332e847f9f.jpg)
