@@ -36,14 +36,19 @@ DATA RECIEVED BY NODEMCU IN SERIAL MONITOR
 
 ![Screenshot (238)](https://user-images.githubusercontent.com/25906435/118393393-86381180-b65c-11eb-9b50-215d0a341aa8.png)
 
-DATA RECIEVED BY BLYNK APP
+DATA RECIEVED BY [BLYNK](https://blynk.io/) APP
 
 (in the blynk app i have only shown 6 diff values beacuse the blynk energy was not enough to place new guage fields for others )
 
 ![Screenshot_2021-05-09-02-48-05-557_cc blynk](https://user-images.githubusercontent.com/25906435/118393486-12e2cf80-b65d-11eb-97fb-504bba5522a6.jpg)
 
-DATA RECIEVED BY THINGSPEAK WEBSITE
+DATA RECIEVED BY [THINGSPEAK](https://thingspeak.com/) WEBSITE
 
 ![Screenshot_2021-05-16-20-10-31-062_com android chrome](https://user-images.githubusercontent.com/25906435/118401476-85ff3c80-b683-11eb-8f7d-4bb1ef685694.jpg)
+
+DATA RECIEVED BY [FIREBASE](https://firebase.google.com) WEBSITE
+
+![Screenshot (255)](https://user-images.githubusercontent.com/25906435/118559890-479e7600-b786-11eb-946b-ab6995009c94.png)
+
 
 
