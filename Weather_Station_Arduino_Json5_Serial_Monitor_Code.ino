@@ -1,7 +1,7 @@
 /*feel free to contact
  * sreeramaj53@gmail.com
  * www.youtube.com/ZenoModiff
- * last updated - time 01:37am - date 18 may 2021
+ * last updated - time 01:37 AM - date 18 may 2021
  * Github Link :-- https://github.com/Zenomodiff/Weather-Station-With-Arduino-Nodemcu
  */
  
