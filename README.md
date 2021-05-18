@@ -51,7 +51,8 @@ DATA RECIEVED BY [THINGSPEAK](https://thingspeak.com/) WEBSITE
 
 DATA RECIEVED BY [FIREBASE](https://firebase.google.com) WEBSITE
 
-![Screenshot (255)](https://user-images.githubusercontent.com/25906435/118559890-479e7600-b786-11eb-946b-ab6995009c94.png)
+![Screenshot (258)](https://user-images.githubusercontent.com/25906435/118621314-df7e7d00-b7e3-11eb-8ba2-2c568cd2aa0e.png)
+
 
 
 
