@@ -13,12 +13,12 @@
 
 SoftwareSerial s_serial_to_nano(2,0); 
 
-const char *ssid =  "Zeno";     
-const char *pass =  "9061116368";
+const char *ssid =  "PASTE THE SSID";     
+const char *pass =  "PASTE THE PASSWORD";
 #define AIO_SERVER      "io.adafruit.com"
 #define AIO_SERVERPORT  1883
-#define AIO_USERNAME    "sreeramaj"
-#define AIO_KEY         "aio_dEVS95alLxo9RhiNNtahOz7Ibeid" 
+#define AIO_USERNAME    "PASTE ADAFRUIT AIO USERNAME"
+#define AIO_KEY         "PASTE ADAFRUIT AIO KEY" 
 
 WiFiClient client;
 Adafruit_MQTT_Client mqtt(&client, AIO_SERVER, AIO_SERVERPORT, AIO_USERNAME, AIO_KEY);
@@ -30,6 +30,8 @@ Adafruit_MQTT_Publish Temperature = Adafruit_MQTT_Publish(&mqtt, AIO_USERNAME "/
 Adafruit_MQTT_Publish Humidity = Adafruit_MQTT_Publish(&mqtt, AIO_USERNAME "/feeds/Humidity");
 Adafruit_MQTT_Publish Ldr = Adafruit_MQTT_Publish(&mqtt, AIO_USERNAME "/feeds/Ldr");
 Adafruit_MQTT_Publish Pres = Adafruit_MQTT_Publish(&mqtt, AIO_USERNAME "/feeds/Pressure");
+
+// I CANNOT ADD MORE FIELDS FOR DATA PUBLISHING THAN THIS, SINCE ADAFRUIT IO HAS LIMITATIONS SO IAM HERE WITH 8 FIELDS 
 
 float mq2_value_global;
 float mq4_value_global;
