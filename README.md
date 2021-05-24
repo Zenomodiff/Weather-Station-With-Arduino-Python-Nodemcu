@@ -16,7 +16,7 @@ BMP280         | PRESSURE & ALTITUDE
 
 So I Use ArduinoJson Library To Sent Values Collected From Sensors Via Arduino As "DOC" & Print It In Nodemcu Serial Monitor , Thats One-Way To Show Multiple Analog Readings In Nodemcu Board .
 
-I Use This [Arduinojson 6.13.0](https://downloads.arduino.cc/libraries/github.com/bblanchon/ArduinoJson-6.13.0.zip) Library For [SERIAL MONITOR DATA](https://user-images.githubusercontent.com/25906435/118393393-86381180-b65c-11eb-9b50-215d0a341aa8.png) -- [BLYNK](https://blynk.io/) -- [THINGSPEAK](https://thingspeak.com/) & [IFTTT](https://ifttt.com/)
+I Use This [Arduinojson 6.13.0](https://downloads.arduino.cc/libraries/github.com/bblanchon/ArduinoJson-6.13.0.zip) Library For [SERIAL MONITOR DATA](https://user-images.githubusercontent.com/25906435/118393393-86381180-b65c-11eb-9b50-215d0a341aa8.png) -- [BLYNK](https://blynk.io/) -- [THINGSPEAK](https://thingspeak.com/) -- [IFTTT](https://ifttt.com/) & [UBIDOTS](https://ubidots.com/)
 
 Then I Use This [Arduinojson 5.13.1](https://downloads.arduino.cc/libraries/github.com/bblanchon/ArduinoJson-5.13.1.zip) Library For [FIREBASE](https://firebase.google.com) , [ADAFRUIT-IO](https://io.adafruit.com/)  Other Arduinojson Library Does Not Work Beacuse I Use DynamicJsonDocument doc(1024); For Converting Data From Arduino To Nodemcu It Is An [Arduinojson 6.13.0](https://downloads.arduino.cc/libraries/github.com/bblanchon/ArduinoJson-6.13.0.zip) Variant & Not Yet Compactable With FirebaseArduino.h & Adafruit_MQTT.h Library , So I Have Downgraded To This [Arduinojson 5.13.1](https://downloads.arduino.cc/libraries/github.com/bblanchon/ArduinoJson-5.13.1.zip) Library . I Need To Do Some Tweeks In The Code To Make It All Work & All The Arduino Files Have Been Updated In The Repository
 
@@ -64,3 +64,8 @@ DATA RECIEVED IN EMAIL BY [IFTTT](https://ifttt.com/)
 (in the iftt website iam only able to create 3 values for the weatherstation since in the ifttt applet we can only craete 3 value action eventhough it useful)
 
 ![Screenshot (462)](https://user-images.githubusercontent.com/25906435/119258444-3f5f9400-bbe7-11eb-87d3-d196368f5a3b.png)
+
+DATA RECIEVED BY [UBIDOTS](https://ubidots.com/)
+
+![Screenshot (507)](https://user-images.githubusercontent.com/25906435/119342676-0ab90e80-bcb3-11eb-85ea-585a2b6ba49a.png)
+
