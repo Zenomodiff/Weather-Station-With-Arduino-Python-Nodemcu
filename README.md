@@ -61,7 +61,7 @@ DATA RECIEVED BY [ADAFRUIT-IO](https://io.adafruit.com/) WEBSITE
 
 DATA RECIEVED IN EMAIL BY [IFTTT](https://ifttt.com/)
 
-(in the iftt website iam only able to create 3 values for the weatherstation since in the ifttt applet we can only craete 3 value action eventhough it useful)
+(in the iftt website iam only able to create 3 values for the weatherstation since in the ifttt applet we can only craete 3 value action even_though it useful)
 
 ![Screenshot (462)](https://user-images.githubusercontent.com/25906435/119258444-3f5f9400-bbe7-11eb-87d3-d196368f5a3b.png)
 
