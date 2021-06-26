@@ -1,7 +1,7 @@
 /*feel free to contact
  * sreeramaj53@gmail.com
  * www.youtube.com/ZenoModiff
- * last updated - time 12:18 AM - date 27 june 2021
+ * last updated - time 12:33 AM - date 27 june 2021
  * Github Link :-- https://github.com/Zenomodiff/Weather-Station-With-Arduino-Nodemcu
  */
 
@@ -13,16 +13,16 @@
 #define ssid "PASTE THE WIFI SSID"  
 #define pass "PASTE THE WIFI PASSWORD"
 
-int air_quality;
-int altitude;
-int cng;
-int humidity;
-int ldr;
-int lpg;
-int pressure;
-int rain_value;
-int smoke;
-int temperature;
+float air_quality;
+float altitude;
+float cng;
+float humidity;
+float ldr;
+float lpg;
+float pressure;
+float rain_value;
+float smoke;
+float temperature;
 
 
 void setup()
@@ -53,16 +53,16 @@ void setup()
 
 void loop()
 {
-    air_quality = (Firebase.getInt("Air_Quality"));
-    altitude = (Firebase.getInt("Altitude"));
-    cng = (Firebase.getInt("Cng"));
-    humidity = (Firebase.getInt("Humidity"));
-    ldr = (Firebase.getInt("Ldr"));
-    lpg = (Firebase.getInt("Lpg"));
-    pressure = (Firebase.getInt("Pressure"));
-    rain_value = (Firebase.getInt("Rain_Value"));
-    smoke = (Firebase.getInt("Smoke"));
-    temperature = (Firebase.getInt("Temperature"));
+    air_quality = (Firebase.getFloat("Air_Quality"));
+    altitude = (Firebase.getFloat("Altitude"));
+    cng = (Firebase.getFloat("Cng"));
+    humidity = (Firebase.getFloat("Humidity"));
+    ldr = (Firebase.getFloat("Ldr"));
+    lpg = (Firebase.getFloat("Lpg"));
+    pressure = (Firebase.getFloat("Pressure"));
+    rain_value = (Firebase.getFloat("Rain_Value"));
+    smoke = (Firebase.getFloat("Smoke"));
+    temperature = (Firebase.getFloat("Temperature"));
 
     if (Firebase.failed()) {
         Serial.println(Firebase.error());
