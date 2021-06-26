@@ -69,7 +69,7 @@ DATA RECIEVED BY [UBIDOTS](https://ubidots.com/)
 
 ![Screenshot (507)](https://user-images.githubusercontent.com/25906435/119342676-0ab90e80-bcb3-11eb-85ea-585a2b6ba49a.png)
 
-DATA GET FROM FIREBASE WITH ESP32
+DATA RETRIEVED BACK FROM FIREBASE WITH ESP32
 
 ![Screenshot (827)](https://user-images.githubusercontent.com/25906435/123522858-cf5c9600-d6dd-11eb-9d6d-bd8c5ee5ee5f.png)
 
