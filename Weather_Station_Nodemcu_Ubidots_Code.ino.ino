@@ -2,7 +2,7 @@
  * sreeramaj53@gmail.com
  * www.youtube.com/ZenoModiff
  * last updated - time 05:04 PM - date 24 may 2021
- * Github Link :-- https://github.com/Zenomodiff/Weather-Station-With-Arduino-Nodemcu
+ * Github Link :-- https://github.com/Zenomodiff/Weather-Station-With-Arduino-Python-Nodemcu
  */
 
 #include <ESP8266WiFi.h>
