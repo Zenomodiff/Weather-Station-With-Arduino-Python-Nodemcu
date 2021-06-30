@@ -2,7 +2,7 @@
  * sreeramaj53@gmail.com
  * www.youtube.com/ZenoModiff
  * last updated - time 12:33 AM - date 27 june 2021
- * Github Link :-- https://github.com/Zenomodiff/Weather-Station-With-Arduino-Nodemcu
+ * Github Link :-- https://github.com/Zenomodiff/Weather-Station-With-Arduino-Python-Nodemcu
  */
 
 #include <IOXhop_FirebaseESP32.h>
