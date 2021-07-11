@@ -1,7 +1,7 @@
 /*feel free to contact
  * sreeramaj53@gmail.com
  * www.youtube.com/ZenoModiff
- * last updated - time 10:08 PM - date 11 july 2021
+ * last updated - time 10:12 PM - date 11 july 2021
  * Github Link :-- https://github.com/Zenomodiff/Weather-Station-With-Arduino-Python-Nodemcu
  */
 
@@ -14,7 +14,7 @@
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 SoftwareSerial s_serial_to_nano(2,0); 
 
- const char *ssid =  "TYPE THE SSID"; 
+const char *ssid =  "TYPE THE SSID"; 
 const char *pass =  "TYPE THE PASSWORD";
 
 WiFiClient client;
