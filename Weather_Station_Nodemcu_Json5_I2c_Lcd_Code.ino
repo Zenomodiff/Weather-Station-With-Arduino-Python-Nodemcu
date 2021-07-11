@@ -14,8 +14,8 @@
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 SoftwareSerial s_serial_to_nano(2,0); 
 
-const char *ssid =  "Zeno";     
-const char *pass =  "greppassword";
+ const char *ssid =  "TYPE THE SSID"; 
+const char *pass =  "TYPE THE PASSWORD";
 
 WiFiClient client;
 
