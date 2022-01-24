@@ -84,9 +84,11 @@ DATA RETRIEVED BACK FROM FIREBASE WITH ESP32
 
 ![Error](https://user-images.githubusercontent.com/25906435/150829184-27995459-4846-41aa-9150-dde984879718.png) 
 
+⬆️ Chnage The [ESP8266-BOARD VERSION](https://miro.medium.com/max/1400/1*Gid6GfUT9l9qStTNtrfeDw.jpeg) From Latest To [This](https://github.com/esp8266/Arduino/releases/download/2.7.4/esp8266-2.7.4.zip) One
+
 - [SSL-FINGER-PRINT ERROR](https://i.stack.imgur.com/opjrg.png)
 
 ![Screenshot (1576)](https://user-images.githubusercontent.com/25906435/150845881-1bce9aed-89d7-45f6-a314-ad354fedf8cd.png)
 
-Change The [SSL-FINGER-PRINT](https://github.com/FirebaseExtended/firebase-arduino/pull/537/files) To Latest Data
+⬆️ Change The [SSL-FINGER-PRINT](https://github.com/FirebaseExtended/firebase-arduino/pull/537/files) To Latest Data
 
