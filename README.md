@@ -1,4 +1,4 @@
-# Weather-Station-With-Arduino-Python-Nodemcu
+# Weather-Station-With-Arduino-Python-Nodemcu🌧️⛅🌤️🛰️📡
 This Weather Station Uses Arduino ,Python & Nodemcu Along With Different Analog  Value Sensor & Digital Value Sensors. 
 Since Nodemcu Have Only One A0 Pin & We Need Values From Different Analog Sensors Like :--
 
