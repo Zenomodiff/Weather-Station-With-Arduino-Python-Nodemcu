@@ -74,4 +74,10 @@ DATA RETRIEVED BACK FROM FIREBASE WITH ESP32
 ![Screenshot (828)](https://user-images.githubusercontent.com/25906435/123523339-9a9e0e00-d6e0-11eb-909b-8e7b1cdc2c91.png)
 
 
+[POSSIBLE ERROR](https://miro.medium.com/max/1400/1*Gid6GfUT9l9qStTNtrfeDw.jpeg)
+
+![Error](https://user-images.githubusercontent.com/25906435/150829184-27995459-4846-41aa-9150-dde984879718.png)
+
+Downgrade The ESP8266 Board Version From Latest To [2.7.4](https://github.com/esp8266/Arduino/releases/download/2.7.4/esp8266-2.7.4.zip) 
+
 
