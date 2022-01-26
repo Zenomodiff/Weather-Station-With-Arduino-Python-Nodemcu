@@ -30,6 +30,10 @@ SOLDERING JOB
 
 ![IMG_20210508_021712](https://user-images.githubusercontent.com/25906435/118393871-f8a9f100-b65e-11eb-8395-6a28c39265ce.jpg)
 
+PCB V1.0
+
+![pic](https://user-images.githubusercontent.com/25906435/151170256-3baeaa12-2bda-40ab-a022-c19e5736f712.png)
+
 
 DATA SENT BY ARDUINO AS JSON "DOC"
 
