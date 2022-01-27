@@ -1,0 +1,26 @@
+
+Date & Time = Fri Jan 28 00:37:54 2022
+======================================
+Air_Quality = 40
+Altitude = 71
+Cng = 71527
+Humidity = 628
+Ldr = 4
+Lpg = 8
+Pressure = 1
+Rain_Value = 8
+Smoke = 4
+Temperature = 8
+
+Date & Time = Fri Jan 28 00:38:07 2022
+======================================
+Air_Quality = 40
+Altitude = 71
+Cng = 71527
+Humidity = 628
+Ldr = 4
+Lpg = 8
+Pressure = 1
+Rain_Value = 8
+Smoke = 4
+Temperature = 8
