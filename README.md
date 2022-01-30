@@ -77,6 +77,9 @@ DATA RETRIEVED BACK FROM FIREBASE WITH ESP32
 
 ![Screenshot (828)](https://user-images.githubusercontent.com/25906435/123523339-9a9e0e00-d6e0-11eb-909b-8e7b1cdc2c91.png)
 
+DATA RETRIEVED BACK FROM FIREBASE WITH JAVASCRIPT IN [LOCAL-SERVER](http://127.0.0.1:5500/index.html)
+
+![Screenshot (1640)](https://user-images.githubusercontent.com/25906435/151712963-1a851da9-02e0-4496-b481-391b58b5bf03.png)
 
 -----------------------------
 
