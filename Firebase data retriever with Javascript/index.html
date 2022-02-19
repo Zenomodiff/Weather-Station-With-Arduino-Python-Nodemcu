@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/Firebase data retriever with Javascript/icons/icons8-cloud-16.png" type="image/icon type">
+    <link rel="stylesheet" href="styles.css">
+    <title>Firebase Data</title>
+</head>
+
+<body>
+    <div class="heading">Weather Station Data</div>
+    <div class="cards-container">
+        <div class="flip-card shadow">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="./icons/icons8-air.gif" alt="Avatar" style="width:200px;height:200px;">
+                </div>
+                <div class="flip-card-back">
+                    <br><br>
+                    <h1>Air Quality</h1>
+                    <h2 id="air"></h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="flip-card shadow">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="./icons/icons8-altitude.gif" alt="Avatar" style="width:200px;height:200px;">
+                </div>
+                <div class="flip-card-back">
+                    <br><br>
+                    <h1>Altitude</h1>
+                    <h2 id="altitude"></h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="flip-card shadow">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="./icons/icons8-cng.gif" alt="Avatar" style="width:200px;height:200px;">
+                </div>
+                <div class="flip-card-back">
+                    <br><br>
+                    <h1>Cng</h1>
+                    <h2 id="cng"></h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="flip-card shadow">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="./icons/icons8-haze.gif" alt="Avatar" style="width:200px;height:200px;">
+                </div>
+                <div class="flip-card-back">
+                    <br><br>
+                    <h1>Humidity</h1>
+                    <h2 id="humidity"></h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="flip-card shadow">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="./icons/icons8-light.gif" alt="Avatar" style="width:200px;height:200px;">
+                </div>
+                <div class="flip-card-back">
+                    <br><br>
+                    <h1>Ldr</h1>
+                    <h2 id="ldr"></h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="flip-card shadow">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="./icons/gas.gif" alt="Avatar" style="width:200px;height:200px;">
+                </div>
+                <div class="flip-card-back">
+                    <br><br>
+                    <h1>Lpg</h1>
+                    <h2 id="lpg"></h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="flip-card shadow">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="./icons/icons8-pressuregif.gif" alt="Avatar" style="width:200px;height:200px;">
+                </div>
+                <div class="flip-card-back">
+                    <br><br>
+                    <h1>Pressure</h1>
+                    <h2 id="pressure"></h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="flip-card shadow">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="./icons/icons8-rain.gif" alt="Avatar" style="width:200px;height:200px;">
+                </div>
+                <div class="flip-card-back">
+                    <br><br>
+                    <h1>Rain Value</h1>
+                    <h2 id="rain"></h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="flip-card shadow">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="./icons/icons8-smoke.gif" alt="Avatar" style="width:200px;height:200px;">
+                </div>
+                <div class="flip-card-back">
+                    <br><br>
+                    <h1>Smoke</h1>
+                    <h2 id="smoke"></h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="flip-card shadow">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="./icons/icons8-temperature.gif" alt="Avatar" style="width:200px;height:200px;">
+                </div>
+                <div class="flip-card-back">
+                    <br><br>
+                    <h1>Temperature</h1>
+                    <h2 id="temp"></h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://www.gstatic.com/firebasejs/6.3.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.1/firebase-database.js"></script>
+    <script>
+        const firebaseConfig = {
+            apiKey: 'AIzaSyBFWpmYeZhm9XJmqarbsYEWmav_tthnz9c',
+            authDomain: 'weather-station-1514a.firebaseapp.com',
+            databaseURL: 'https://weather-station-1514a-default-rtdb.firebaseio.com',
+            projectId: 'weather-station-1514a',
+            storageBucket: 'weather-station-1514a.appspot.com',
+            messagingSenderId: '614945758191',
+            appId: '1:614945758191:web:93516cfc55926fa795b41a',
+            measurementId: 'G-GTLS6J2TXC',
+        }
+        firebase.initializeApp(firebaseConfig);
+        const db = firebase.database().ref();
+
+        function getAllDataOnce() {
+            db.on("value", function(snapshot) {
+                console.log("Data", snapshot.val());
+                
+                var air = snapshot.val().Air_Quality;
+                var altitude = snapshot.val().Altitude;
+                var cng = snapshot.val().Cng;
+                var humidity = snapshot.val().Humidity;
+                var ldr = snapshot.val().Ldr;
+                var lpg = snapshot.val().Lpg;
+                var pressure = snapshot.val().Pressure;
+                var rain = snapshot.val().Rain_Value;
+                var smoke = snapshot.val().Smoke;
+                var temp = snapshot.val().Temperature;
+                
+                document.getElementById('air').innerHTML = air+ " PPM";
+                document.getElementById('altitude').innerHTML = altitude+ " M";
+                document.getElementById('cng').innerHTML = cng+ " PPM";
+                document.getElementById('humidity').innerHTML = humidity+ " %";
+                document.getElementById('ldr').innerHTML = ldr+ " LX";
+                document.getElementById('lpg').innerHTML = lpg+ " PPM";
+                document.getElementById('pressure').innerHTML = pressure+ " PA";
+                document.getElementById('rain').innerHTML = rain+ " MM";
+                document.getElementById('smoke').innerHTML = smoke+ " PPM";
+                document.getElementById('temp').innerHTML = temp+ " °C";
+                
+                
+
+            })
+
+        }
+        getAllDataOnce();
+    </script>
+</body>
+
+</html>
