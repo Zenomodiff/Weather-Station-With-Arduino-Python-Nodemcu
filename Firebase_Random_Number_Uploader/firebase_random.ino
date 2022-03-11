@@ -1,3 +1,7 @@
+/*Before Building The Project You Can Simply Test 
+The Firebase Database Functionality Using This Code*/
+
+
 #include <ESP8266WiFi.h>
 #include <FirebaseArduino.h>
 
