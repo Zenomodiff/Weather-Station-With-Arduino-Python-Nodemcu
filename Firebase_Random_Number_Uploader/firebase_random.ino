@@ -16,10 +16,10 @@ float randNumber8;
 float randNumber9;
 float randNumber10;
 
-#define FIREBASE_HOST "random-data-24fef-default-rtdb.firebaseio.com"  
-#define FIREBASE_AUTH "5C2MnIGe8vtF17UUfMCIQVFzAP4i9DbQN8w0YOPl"  
-#define WIFI_SSID "Zeno_Modiff"
-#define WIFI_PASSWORD "980@#}{&&%^"
+#define FIREBASE_HOST "PASTE THE FIREBASEHOST ID"  
+#define FIREBASE_AUTH "PASTE THE FIREBASE AUTH ID"  
+#define WIFI_SSID "PASTE THE WIFI SSID"
+#define WIFI_PASSWORD "PASTE THE WIFI PASSWORD"
 
 void setup() {
   Serial.begin(115200);
