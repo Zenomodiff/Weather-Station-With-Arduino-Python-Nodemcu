@@ -10,12 +10,12 @@ float randnumber5;
 #include <addons/TokenHelper.h>
 #include <addons/RTDBHelper.h>
 
-#define WIFI_SSID ""
-#define WIFI_PASSWORD ""
-#define API_KEY ""
-#define DATABASE_URL "" 
-#define USER_EMAIL ""
-#define USER_PASSWORD ""
+#define WIFI_SSID "Enter_SSID"
+#define WIFI_PASSWORD "Enter_PASSWORD"
+#define API_KEY "Enter_API_KEY"
+#define DATABASE_URL "Enter_DATABASE_URL" 
+#define USER_EMAIL "Enter_EMAIL_ID"
+#define USER_PASSWORD "Enter_EMAIL_PASSWORD"
 
 FirebaseData fbdo;
 FirebaseAuth auth;
