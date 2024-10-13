@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firebase Data</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa; /* Light background */
+        }
+        .container {
+            margin-top: 50px;
+            text-align: center;
+        }
+        h1 {
+            color: #343a40; /* Dark color for the heading */
+        }
+        .number-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .number-list li {
+            padding: 10px;
+            margin: 5px 0;
+            background-color: #ffffff; /* White background for list items */
+            border: 1px solid #dee2e6; /* Light border */
+            border-radius: 5px; /* Rounded corners */
+        }
+        .countdown {
+            position: absolute;
+            top: 10px;
+            right: 20px;
+            font-size: 8px;
+            background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent background */
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow effect */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Random Numbers from Firebase</h1>
+        <ul class="number-list">
+            {% if numbers %}
+                {% for number in numbers %}
+                    <li class="list-group-item">{{ number }}</li>
+                {% endfor %}
+            {% else %}
+                <li class="list-group-item">No data found.</li>
+            {% endif %}
+        </ul>
+        <a href="/" class="btn btn-primary mt-3">Refresh</a>  <!-- Refresh button -->
+    </div>
+
+    <!-- Countdown Timer -->
+    <div class="countdown" id="countdown">10</div>
+
+    <!-- Bootstrap JS and dependencies (Optional) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Auto-refresh script with countdown -->
+    <script>
+        let countdownTime = 10; // Set countdown time in seconds
+        const countdownElement = document.getElementById('countdown');
+
+        function updateCountdown() {
+            countdownElement.innerText = countdownTime; // Update the countdown display
+            countdownTime--;
+
+            if (countdownTime < 0) {
+                window.location.reload(); // Refresh the page
+            }
+        }
+
+        // Update countdown every second
+        setInterval(updateCountdown, 1000);
+    </script>
+</body>
+</html>
